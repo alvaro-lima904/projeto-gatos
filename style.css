@@ -3,6 +3,7 @@
 :root {
     --cor-azul: #065E7C;
     --cor-azul-claro: #387E96;
+    --cor-branca: white;
 }
 
 * {
@@ -42,7 +43,7 @@ header #perfil {
 
 header input {
     background-color: var(--cor-azul-claro);
-    color: white;
+    color: var(--cor-branca);
     padding: 12px 0px 12px 14px;
     border-radius: 4px;
     border: none;
@@ -50,7 +51,7 @@ header input {
 }
 
 header input::-webkit-input-placeholder {
-    color: white;
+    color: var(--cor-branca);
 }
 
 #info img {
@@ -71,7 +72,7 @@ header input::-webkit-input-placeholder {
 
 #text-info div button {
     background-color: var(--cor-azul);
-    color: white;
+    color: var(--cor-branca);
     padding: 13px 13.5px 12.64px 13.5px;
     border-radius: 50%;
     font-size: 16px;
@@ -110,7 +111,7 @@ header input::-webkit-input-placeholder {
 
 footer {
     background-color: var(--cor-azul-claro);
-    color: white;
+    color: var(--cor-branca);
     text-align: center;
     padding: 26.5px;
 }
